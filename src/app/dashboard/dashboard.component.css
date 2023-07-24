@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c0c0c0;
+}
+
+header {
+    background-color: #004080;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.profile,
+.progress,
+.goals,
+.asset {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(8, 8, 8, 0.1);
+    width: 100%;
+}
+
+.profile-next {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(100, 203, 232);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(8, 8, 8, 0.1);
+}
+
+.progress-boxex {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(172, 244, 123);
+    padding: 10px;
+    margin-left: 0%;
+    margin-right: 50%;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(8, 8, 8, 0.1);
+}
+
+.goals-boxex {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(249, 169, 77);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(8, 8, 8, 0.1);
+}
+
+
+
+footer {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
